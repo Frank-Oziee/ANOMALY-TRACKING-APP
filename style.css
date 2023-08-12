@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1000px;
+    max-width: 1000px;
+    min-width: 800px;
+    background-image: url("BACKGRND 12.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: auto;
+    margin: auto;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    font-size: 18px;
+}
+
+.motherDiv {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.473);
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.sectionOne, .sectionTwo, .sectionThree, .sectionFour {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionOneh3, .sectionTwoh3, .sectionThreeh3 {
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+#textarea {
+    display: block;
+    border: none;
+    width: 800px;
+    height: 200px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 0 0 20px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+
+.sectionP{
+    color: blue;
+    font-size: x-large;
+    font-weight:bolder ;
+}
+
+.sectionFour {
+    display: flex;
+    justify-content: space-around;
+}
+.sectionFourH5_1, .sectionFourH5_2, .sectionFourH5_3 {
+    font-size: large;
+    color: blue;
+}
+
+.datE {
+    color: blue;
+    font-size:14px ;
+    padding-left: 10px;
+}
+
+/*we added this CSS style property, to initially hide the ul element by placing the 'display' CSS property of the 'ul' element to 'none', before manipulating it in JavaScript.*/
+/* #sectionThree_ul {
+    display: none;
+} */
+
+/* #sectionThree_ul {
+    display: inline;
+} */
